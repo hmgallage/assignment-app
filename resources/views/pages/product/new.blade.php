@@ -28,7 +28,7 @@
                             <div class="mb-3">
                                 <label for="price" class="form-label">Status</label>
                                 <select class="form-select" name="status" required>
-                                     <option selected>select Availability</option>
+                                     {{-- <option selected>select Availability</option> --}}
                                      <option value="1">Available</option>
                                      <option value="0">Unavailable</option>
                                 </select>
